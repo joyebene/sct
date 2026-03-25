@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Your backend API URL
+  baseURL: 'https://sct-backend-tt4g.onrender.com/api', // Your backend API URL
 });
 
 // Add a request interceptor to include the token in all requests

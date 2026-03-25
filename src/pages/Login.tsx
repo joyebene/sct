@@ -20,7 +20,7 @@ const Login = () => {
     try {
       console.log(matricNumber, password);
       
-      const res = await axios.post('http://localhost:5000/api/auth/login', {
+      const res = await axios.post('https://sct-backend-tt4g.onrender.com/api/auth/login', {
         matricNumber,
         password,
       });
