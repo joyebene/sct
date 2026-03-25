@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, LogOut, Bus, MapPin, Users, Settings } from 'lucide-react';
 
-const Sidebar = ({ role }: { role: string}) => {
+const Sidebar = ({ role }: { role: 'student' | 'driver' | 'admin' }) => {
   const [isOpen, setIsOpen] = useState(false);
 
 

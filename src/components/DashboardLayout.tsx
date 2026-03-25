@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 import schoolLogo from "../assets/school-logo.webp";
 
-const DashboardLayout = ({ role }: { role: string }) => {
+const DashboardLayout = ({ role }: { role: "student" | "driver"| "admin" }) => {
   return (
     <div className="flex min-h-screen bg-gray-100">
       <Sidebar role={role} />
